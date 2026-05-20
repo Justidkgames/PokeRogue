@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%; --color-base: #6b5a73; --color-light: #DD5748; --color-dark: #7E4955;"><head>
+	<meta charset="UTF-8">
+	<title>PokéRogue</title>
+	<meta name="title" content="PokéRogue">
+	<meta name="description" content="A Pokémon fangame heavily inspired by the roguelite genre. Battle endlessly while gathering stacking items, exploring many different biomes, and reaching Pokémon stats you never thought possible.">
+	<meta name="theme-color" content="#da3838">
+	<meta name="keywords" content="pokerogue, pokemon, roguelite">
+	<meta name="news_keywords" content="pokerogue, pokemon, roguelite">
+	<meta name="distribution" content="Global">
+	<meta http-equiv="audience" content="General">
+	<meta property="og:title" content="PokéRogue">
+	<meta property="og:type" content="website">
+	<meta property="og:description" content="A Pokémon fangame heavily inspired by the roguelite genre. Battle endlessly while gathering stacking items, exploring many different biomes, and reaching Pokémon stats you never thought possible.">
+	<meta property="og:image" content="https://pokerogue.net/logo512.png">
+	<meta property="og:url" content="https://pokerogue.net">
+	<meta property="og:site_name" content="PokéRogue">
+	<meta property="twitter:title" content="PokéRogue">
+	<meta property="twitter:description" content="A Pokémon fangame heavily inspired by the roguelite genre. Battle endlessly while gathering stacking items, exploring many different biomes, and reaching Pokémon stats you never thought possible.">
+	<meta property="twitter:image" content="https://pokerogue.net/logo512.png">
+	<meta property="twitter:card" content="summary">
+	<meta property="twitter:url" content="https://pokerogue.net">
+	<link rel="apple-touch-icon" href="./logo512.png">
+	<link rel="shortcut icon" type="image/png" href="./logo512.png">
+	<link rel="canonical" href="https://pokerogue.net">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	<style type="text/css">
+		@font-face {
+			font-family: 'emerald';
+			src: url('./fonts/pokemon-emerald-pro.ttf') format('truetype');
+		}
+
+		@font-face {
+			font-family: 'pkmnems';
+			src: url('./fonts/pkmnems.ttf') format('truetype');
+		}
+	</style>
+	<link rel="manifest" href="./manifest.webmanifest">
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", function () {
+        navigator.serviceWorker.register("./service-worker.js").then(
+          function (registration) {
+            console.log("ServiceWorker registration successful");
+          },
+          function (err) {
+            console.log("ServiceWorker registration failed: ", err);
+          },
+        );
+      });
+    }
+
+    window.addEventListener('beforeinstallprompt', e => {
+      // Prevent invasive install prompt (users are still able to install as an app)
+      e.preventDefault();
+    });
+  </script>
+  <script type="module" crossorigin="" src="./assets/index-DFiTm1Uv.js"></script>
+  <link rel="modulepreload" crossorigin="" href="./assets/touch-controls-Ch0jkfAd.js">
+  <link rel="modulepreload" crossorigin="" href="./assets/RoundRectangle-BfFQ1lFr.js">
+  <link rel="stylesheet" crossorigin="" href="./assets/index-BnAwyMG9.css">
+<link rel="modulepreload" as="script" crossorigin="" href="https://pokerogue.net/assets/loading-scene-DMSGbl7J.js"><link rel="modulepreload" as="script" crossorigin="" href="https://pokerogue.net/assets/battle-scene-BkZUfLSP.js"></head>
+
+<body style="height: 100%;">
+	<div id="app" style="overflow: hidden; width: 100%; height: 100%;"><div style="display: block; width: 1920px; height: 1080px; padding: 0px; margin-right: 0px; margin-bottom: 0px; position: absolute; overflow: hidden; pointer-events: none; transform: scale(0.507083, 0.507083); transform-origin: left top;"><input type="text" maxlength="20" spellcheck="false" autocomplete="off" autocapitalize="off" style="font-family: emerald; color: rgb(248, 248, 248); background-color: transparent; border: 0px transparent; outline: none; box-sizing: border-box; z-index: 0; display: none; position: absolute; width: 440px; height: 116px;"><input type="text" maxlength="20" spellcheck="false" autocomplete="off" autocapitalize="off" style="font-family: emerald; color: rgb(248, 248, 248); background-color: transparent; border: 0px transparent; outline: none; box-sizing: border-box; z-index: 0; display: none; position: absolute; width: 440px; height: 116px;"><input type="password" maxlength="64" spellcheck="false" autocomplete="off" autocapitalize="off" style="font-family: emerald; color: rgb(248, 248, 248); background-color: transparent; border: 0px transparent; outline: none; box-sizing: border-box; z-index: 0; display: none; position: absolute; width: 440px; height: 116px;"><input type="text" maxlength="20" spellcheck="false" autocomplete="off" autocapitalize="off" style="font-family: emerald; color: rgb(248, 248, 248); background-color: transparent; border: 0px transparent; outline: none; box-sizing: border-box; z-index: 0; display: none; position: absolute; width: 440px; height: 116px;"><input type="password" maxlength="64" spellcheck="false" autocomplete="off" autocapitalize="off" style="font-family: emerald; color: rgb(248, 248, 248); background-color: transparent; border: 0px transparent; outline: none; box-sizing: border-box; z-index: 0; display: none; position: absolute; width: 440px; height: 116px;"><input type="password" maxlength="64" spellcheck="false" autocomplete="off" autocapitalize="off" style="font-family: emerald; color: rgb(248, 248, 248); background-color: transparent; border: 0px transparent; outline: none; box-sizing: border-box; z-index: 0; display: none; position: absolute; width: 412px; height: 116px;"><input type="text" maxlength="20" spellcheck="false" autocomplete="off" autocapitalize="off" style="font-family: emerald; color: rgb(248, 248, 248); background-color: transparent; border: 0px transparent; outline: none; box-sizing: border-box; z-index: 0; display: none; position: absolute; width: 440px; height: 116px;"><input type="text" maxlength="20" spellcheck="false" autocomplete="off" autocapitalize="off" style="font-family: emerald; color: rgb(248, 248, 248); background-color: transparent; border: 0px transparent; outline: none; box-sizing: border-box; z-index: 0; display: none; position: absolute; width: 440px; height: 116px;"><input type="text" maxlength="20" spellcheck="false" autocomplete="off" autocapitalize="off" style="font-family: emerald; color: rgb(248, 248, 248); background-color: transparent; border: 0px transparent; outline: none; box-sizing: border-box; z-index: 0; display: none; position: absolute; width: 440px; height: 116px;"><input type="password" maxlength="64" spellcheck="false" autocomplete="off" autocapitalize="off" style="font-family: emerald; color: rgb(248, 248, 248); background-color: transparent; border: 0px transparent; outline: none; box-sizing: border-box; z-index: 0; display: none; position: absolute; width: 440px; height: 116px;"><input type="password" maxlength="64" spellcheck="false" autocomplete="off" autocapitalize="off" style="font-family: emerald; color: rgb(248, 248, 248); background-color: transparent; border: 0px transparent; outline: none; box-sizing: border-box; z-index: 0; display: none; position: absolute; width: 412px; height: 116px;"></div><canvas width="1920" height="1080" style="image-rendering: pixelated; width: 973.6px; height: 547.65px;"></canvas></div>
+	<div id="touchControls" data-ui-mode="LOGIN_OR_REGISTER">
+		<div class="left">
+			<div id="control-group-dpad" class="control-group control-group-dpad">
+				<div id="dpad" data-control-key="DPAD">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
+						<title>D-Pad Touch Controls</title>
+						<path id="dpadUp" data-key="UP" d="M48,5.8C48,2.5,45.4,0,42,0H29.9C26.6,0,24,2.4,24,5.8V24h24V5.8z"></path>
+						<path id="dpadRight" data-key="RIGHT" d="M66.2,24H48v24h18.2c3.3,0,5.8-2.7,5.8-6V29.9C72,26.5,69.5,24,66.2,24z"></path>
+						<path id="dpadDown" data-key="DOWN" d="M24,66.3c0,3.3,2.6,5.7,5.9,5.7H42c3.3,0,6-2.4,6-5.7V48H24V66.3z"></path>
+						<path id="dpadLeft" data-key="LEFT" d="M5.7,24C2.4,24,0,26.5,0,29.9V42c0,3.3,2.3,6,5.7,6H24V24H5.7z"></path>
+						<rect id="dpadCenter" x="24" y="24" width="24" height="24"></rect>
+					</svg>
+				</div>
+			</div>
+		</div>
+
+		<div class="right">
+			<div id="control-group-action" class="control-group">
+				<div id="apadAction" class="apad-button apad-circle" data-key="ACTION">
+					<span class="apad-label">A</span>
+				</div>
+			</div>
+
+			<div id="control-group-cancel" class="control-group">
+				<div id="apadCancel" class="apad-button apad-circle" data-key="CANCEL">
+					<span class="apad-label">B</span>
+				</div>
+			</div>
+
+			<div id="control-group-extra-1" class="control-group control-group-extra">
+				<!-- buttons to navigate settings tabs -->
+				<div id="apadPreviousTab" class="apad-button apad-square apad-small" data-key="CYCLE_FORM">
+					<span class="apad-label">F</span>
+				</div>
+				<div id="apadNextTab" class="apad-button apad-square apad-small" data-key="CYCLE_SHINY">
+					<span class="apad-label">R</span>
+				</div>
+				<!-- buttons to open filter menu in starter select -->
+				<div id="apadOpenFilters" class="apad-button apad-rectangle apad-small" data-key="STATS">
+					<span class="apad-label">C</span>
+				</div>
+				<!-- main menu button -->
+				<div id="apadMenu" class="apad-button apad-rectangle apad-small" data-key="MENU">
+					<span class="apad-label">Menu</span>
+				</div>
+			</div>
+
+			<div id="control-group-extra-2" class="control-group control-group-extra">
+				<!-- buttons to cycle through pokemon characteristics in starter select -->
+				<div id="apadCycleForm" class="apad-button apad-square apad-small" data-key="CYCLE_FORM">
+					<span class="apad-label">F</span>
+				</div>
+				<div id="apadCycleGender" class="apad-button apad-square apad-small" data-key="CYCLE_GENDER">
+					<span class="apad-label">G</span>
+				</div>
+				<div id="apadCycleShiny" class="apad-button apad-square apad-small" data-key="CYCLE_SHINY">
+					<span class="apad-label">R</span>
+				</div>
+				<div id="apadCycleAbility" class="apad-button apad-square apad-small" data-key="CYCLE_ABILITY">
+					<span class="apad-label">E</span>
+				</div>
+				<div id="apadCycleNature" class="apad-button apad-square apad-small" data-key="CYCLE_NATURE">
+					<span class="apad-label">N</span>
+				</div>
+				<div id="apadCycleTera" class="apad-button apad-square apad-small" data-key="CYCLE_TERA">
+					<span class="apad-label">V</span>
+				</div>
+				<!-- buttons to display battle-specific information -->
+				<div id="apadInfo" class="apad-button apad-rectangle apad-small" data-key="CYCLE_TERA">
+					<span class="apad-label">V</span>
+				</div>
+				<div id="apadStats" class="apad-button apad-rectangle apad-small" data-key="STATS">
+					<span class="apad-label">C</span>
+				</div>
+			</div>
+
+		</div>
+	</div>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9fe7f1d2edb3e8d0',t:'MTc3OTI0NDQ5MA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; visibility: hidden;"></iframe><script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;cd32d17387da4089b21b25a243bbc605&quot;,&quot;r&quot;:1,&quot;server_timing&quot;:{&quot;name&quot;:{&quot;cfCacheStatus&quot;:true,&quot;cfEdge&quot;:true,&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfSpeedBrain&quot;:true},&quot;location_startswith&quot;:null}}" crossorigin="anonymous"></script>
+
+</body></html>
